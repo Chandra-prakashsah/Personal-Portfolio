@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Deatils</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <div class="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="Abouts.html" >Abouts us</a></li>
+                        <li><a href="Services.html" >Services</a></li>
+                        <li><a href="cv.html" >CV</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main">
+                    <div class="contactform">
+                        <h1>Contact me for work/general Enquiries</h1>
+                        <form>
+                            <div class="Name">
+                                <label for="Name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="clientName" >
+                            </div>
+                            <div class="email">
+                                <label for="clientemail" class="form-label">Email adreess</label>
+                                <input type="email" class="form-control" id="clientEmail" aria-describedby="emailhelp">
+                                <div id="emailHelp" class="form-text" >we'll never share your emailand phone with any other</div>
+                            </div>
+                            <div class="phone">
+                                <label for="clientPhone" class="form-label">phone</label>
+                                <input type="phone" class="form-control" id="clientPhone" >
+                            </div>
+                            <div class="Enquireis">
+                                <label for="Enquiries" class="form-label">Enquiries</label>
+                                <textarea class="form-control" id="clientQuries" ></textarea>
+                            </div>
+                            <!-- <div id="form-check">
+                                    <textarea class="form-check-input" id="isclient"></textarea>
+                                    <label class="form-check-level" for="isclient">If you want to work on a project with me</label>
+                            </div> -->
+                            <button type="submit" class="btn-primary" id="submit" onclick="sendMail">submit</button>
+                        </form>
+                    </div>
+
+            </div>
+    </div>    
+    <script src="script.js"></script>       
+</body>
+</html>
