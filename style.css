@@ -8,6 +8,7 @@
     width: 20vw;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+   position: fixed;
  
 }
 .sidebar nav{
@@ -27,9 +28,10 @@
 }
 .main{
     
-    width: 90vw;
+    width: 100vw;
     height:100vh;
     background-color: #f1f1f1f1;
+    margin-left: 270px;
 }
 .container{
     display: flex;
@@ -133,11 +135,11 @@
 /*blog html */
 .main1{
     height: 100vh;
-    width: 82vw;
+    width: 100vw;
     background-color: #f1f1f1f1;
 }
 .blog-Item{
-   margin:30px 0px 0px 30px; 
+   margin:30px 0px 0px 300px; 
   
    
 }
@@ -157,12 +159,12 @@
 
 .about-me{
     background-color:blanchedalmond;
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
     
 }
 .about-me-container{
-    margin: 35px 20px 5px 20px;
+    margin: 35px 20px 5px 300px;
     border:2px solid red;
 
 }
@@ -196,7 +198,7 @@
     margin-left: 28px;
 }
 .skill1{
-    width: 30vw;
+    width: 33vw;
     height: 12px;
     background-color: green;
     border-radius: 10px;
@@ -213,7 +215,7 @@
     
 }
 .skill3{
-    width: 26vw;
+    width: 30vw;
     height: 12px;
     background-color: red;
     border-radius: 10px;
