@@ -34,8 +34,8 @@
     /* margin-left: 270px; */
 }
 .container{
-    display: flex;
-    
+    display: flex;   
+    height: auto;
 
 }
 .infocontainer{
